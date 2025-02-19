@@ -12,7 +12,7 @@ jobs:
       uses: actions/checkout@v4
 
     - name: install unzip
-      run: sudo apy install unzip -y
+      run: sudo apt install unzip -y
 
     - name: Set up JDK 17
       uses: actions/setup-java@v4
