@@ -83,4 +83,4 @@ jobs:
     - name: apply kubectl command
       run: |
         kubectl apply -f deployment-service.yaml -n webapp
-        kubectl get svc -n webapp
+        kubectl get svc -n webapps
